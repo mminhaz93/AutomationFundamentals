@@ -115,7 +115,7 @@ public class GoogleAutomation {
 
 
     private static String handleMovieCase(String str) {
-        String title = str.replace("-", " ").toLowerCase();
+        String name = str.replace("-", " ").toLowerCase();
 
         return title;
 
